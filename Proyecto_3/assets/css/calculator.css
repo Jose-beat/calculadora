@@ -1,0 +1,87 @@
+*{
+    list-style: none;
+    margin: 0px;  
+    font-family: unset;
+
+}
+
+.number {
+ 
+    
+    width: 80PX;
+    height: 50px;
+    background-color: white;
+    margin: 10px;
+}
+
+
+
+.calc{
+
+   
+   position: absolute;
+   height: 450px;
+   width: 450px;
+   top: 250px;
+   left: 180px;
+   background-color: blue;
+}
+
+li.fil1{
+  display: inline;
+  position:  static;
+  left: 170px;
+
+ 
+}
+li.fil2{
+    display: inline;
+   position:  static;
+
+   right: 120px;
+
+ }
+
+li.fil3{
+    display: inline;
+
+
+  
+  
+ }
+
+li.fil4{
+    position: static;
+
+   right:825px;
+   top: 200px;
+
+
+  
+ }
+
+
+#cer{
+    width: 190px;
+  
+}
+
+.operacionActual{
+    position:  absolute;
+    width: 442px;
+    height: 130px;
+    top: 115px;
+    left: 180px;
+
+}
+
+@media all and (max-width:640px){
+    .calc{
+        background-color: red;
+    }
+}
+
+
+
+
+
